@@ -1,0 +1,17 @@
+<div class="container">
+
+  <p id="notice"><%= notice %></p>
+
+  <figure>
+    <%= image_tag(@image.picture.url, alt: @image.alt) %>
+    <figcaption><%= @image.caption %></figcaption>
+  </figure>
+
+  <div class="description">
+    <%= @image.description %>
+  </div>
+
+  <%= link_to 'Edit', edit_image_path(@image) %> |
+  <%= link_to 'Back', images_path %>
+
+</div>

@@ -1,0 +1,27 @@
+// Place all the styles related to the images controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+figure {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+}
+figcaption {
+  margin: 10px 0 0 0;
+  font-variant: small-caps;
+  font-family: Arial;
+  font-weight: bold;
+  color: #bb3333;
+}
+.description::before {
+  content: "Description: ";
+  display: inline-block;
+}
+
+ul.gallery {
+  @extend .clearfix;
+}
+ul.gallery li {
+  display: inline;
+  float: left;
+}
