@@ -29,7 +29,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 
 # Use bootstrap
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass', '~> 3.3'
 gem 'autoprefixer-rails'
 
 # Use simple_form to speed up form development
